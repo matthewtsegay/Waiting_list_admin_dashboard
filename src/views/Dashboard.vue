@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen w-full border-2 border-green-400 bg-green-50 text-gray-800 p-6">
+    <div class="min-h-screen w-full border-4 border-green-500 shadow-green-2 bg-green-50 text-gray-800 p-6">
       <h1 class="text-green-400 text-2xl font-bold text-primary mb-6"> Admin Dashboard</h1>
       <SearchFilter
         :search="searchQuery"
@@ -25,7 +25,7 @@
       />
   
       <div class="flex gap-4 mt-6">
-        <button class="bg-primary text-white px-4 py-2 rounded" @click="exportCSV(filteredUsers)">
+        <button class="bg-green-400 hover:bg-green-500 text-white px-4 py-2 rounded" @click="exportCSV(filteredUsers)">
           Export CSV
         </button>
       </div>
