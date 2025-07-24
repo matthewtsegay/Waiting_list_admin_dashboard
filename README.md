@@ -22,8 +22,8 @@ A Vue 3 + vite admin dashboard to manage users on the TenaMart waiting list.
 * JavaScript for CSV export
 
 ```bash
-git clone https://github.com/your-username/tenamart-dashboard.git
-cd tenamart-dashboard
+git clone https://github.com/matthewtsegay/Waiting_list_admin_dashboard
+cd Waiting_list_admin_dashboard
 npm install
 npm run dev
 ```
@@ -31,8 +31,8 @@ npm run dev
 ## Structure
 
 * `src/components/`: UI components (UserCard, SearchBar, etc.)
-* `src/views/`: Main dashboard view
-* `src/data/users.js`: Mock user data
+* `src/views/Dashboard.vue`: Main dashboard view
+* `src/mockData.js`: Mock user data
 
 ## Notes
 
