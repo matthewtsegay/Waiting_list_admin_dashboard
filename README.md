@@ -16,9 +16,8 @@ A Vue 3 + vite admin dashboard to manage users on the TenaMart waiting list.
 
 ## Tech Stack
 
-* Vue 3 (Composition API)
+* Vue 3 
 * Tailwind CSS
-* Chart.js (optional for charts)
 * JavaScript for CSV export
 
 ```bash
