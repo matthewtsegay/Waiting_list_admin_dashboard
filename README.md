@@ -1,6 +1,6 @@
 
 
-# TenaMart Admin Dashboard
+# TenaMart waiting list Admin Dashboard
 
 A Vue 3 + vite admin dashboard to manage users on the TenaMart waiting list.
 
